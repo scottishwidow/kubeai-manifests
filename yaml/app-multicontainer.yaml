@@ -1,0 +1,14 @@
+✨ Attempting to apply the following manifest:
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: multi-container-pod
+spec:
+  containers:
+  - name: nginx-container
+    image: nginx
+  - name: sidecar-container
+    image: alpine
+    command: ["tail", "-f", "/dev/null"]
+

@@ -1,0 +1,15 @@
+✨ Attempting to apply the following manifest:
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-pod
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    readinessProbe:
+      httpGet:
+        path: /index.html
+        port: 80
+

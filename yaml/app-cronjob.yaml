@@ -1,0 +1,17 @@
+✨ Attempting to apply the following manifest:
+
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name: nginx-cron-job
+spec:
+  schedule: "*/1 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: nginx
+            image: nginx
+          restartPolicy: OnFailure
+
