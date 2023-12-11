@@ -1,4 +1,4 @@
-№№ Kubectl OpenAI plugin
+## Kubectl OpenAI plugin
 
 
 github.com/sozercan/kubectl-ai?tab=readme-ov-file#kubectl-openai-plugin-
