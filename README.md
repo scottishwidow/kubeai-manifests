@@ -1,4 +1,42 @@
-# kubeai-manifests
+№№ Kubectl OpenAI plugin
+
+
+github.com/sozercan/kubectl-ai?tab=readme-ov-file#kubectl-openai-plugin-
+
+## Installation
+
+
+```bash
+
+wget https://github.com/sozercan/kubectl-ai/releases/download/v0.0.11/kubectl-ai_linux_amd64.tar.gz | tar zxf kubectl-ai_linux_amd64.tar.gz
+
+mv kubectl-ai /usr/local/bin/
+
+chmod +x /usr/local/bin/kubectl-ai
+
+```
+
+```bash
+
+read -s OPENAI_API_KEY
+
+export OPENAI_API_KEY
+
+export OPENAI_VERSION=gpt-3.5-turbo
+
+```
+
+## Prompts testing 
+
+```bash
+
+kubectl ai 'create an nginx deployment with 3 replicas' --require-confirmation=false > test.yaml
+
+
+```
+
+![[Pasted image 20231211204259.png]]
+
 
 | NAME                    | PROMPT                          | DESCRIPTION                                                         | EXAMPLE                 |
 |:------------------------|:--------------------------------|:--------------------------------------------------------------------|:------------------------|
