@@ -35,6 +35,9 @@ kubectl ai 'create an nginx deployment with 3 replicas' --require-confirmation=f
 
 ```
 
+![image](https://github.com/scottishwidow/kubeai-manifests/assets/135420876/1d430906-6ead-4b86-8263-284ae5b7e589)
+
+
 
 | NAME                    | PROMPT                          | DESCRIPTION                                                         | EXAMPLE                 |
 |:------------------------|:--------------------------------|:--------------------------------------------------------------------|:------------------------|
