@@ -1,5 +1,3 @@
-# kubeai-manifests
-
 | NAME                    | PROMPT                          | DESCRIPTION                                                         | EXAMPLE                 |
 |:------------------------|:--------------------------------|:--------------------------------------------------------------------|:------------------------|
 | app.yaml                | Create Application Config       | YAML to define the basic schema of a Kubernetes application         | app.yaml                |
