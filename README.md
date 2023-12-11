@@ -35,8 +35,6 @@ kubectl ai 'create an nginx deployment with 3 replicas' --require-confirmation=f
 
 ```
 
-![[Pasted image 20231211204259.png]]
-
 
 | NAME                    | PROMPT                          | DESCRIPTION                                                         | EXAMPLE                 |
 |:------------------------|:--------------------------------|:--------------------------------------------------------------------|:------------------------|
